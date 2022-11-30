@@ -21,7 +21,7 @@ This project will provide an insight of building a project from "zero to hero". 
 
 
 ## Project Structure
-The project will be broken up into 2  sprints. Each sprint consists of 4 class days.
+The project will be broken up into 3  sprints. Each sprint consists of 4 class days.
 
 Sprints will end on Fridays (Mon-Thursday Lectures), in which you will also have your weekly check-in.
 
