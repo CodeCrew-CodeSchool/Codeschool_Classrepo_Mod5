@@ -30,11 +30,3 @@ After every milestone, you will do a retro on your progress so far and what is l
 At the end of each sprint, you will conduct a Peer Review on a few of your partner's user stories. Be sure to understand what exactly was completed and input any feedback or suggestions for optimizations or alternative approaches. Remember, this is just feedback and review -- keep it respectable and professional.
 
 Use this project as an opportunity to ask questions, learn what it's like to work on a team with a full Agile process, and have fun with it!
-
-## Resources
-
-- [Sprint 1 Requirements](./sprint-1.md)
-- [Sprint 2 Requirements](./sprint-2.md)
-- [Final Requirements](./final.md)
-- [Vulnerability Report](./vulnerability-report.md)
-- [ADO Cheatsheet](./azure-devops-cheatsheet.md)

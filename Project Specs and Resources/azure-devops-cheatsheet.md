@@ -4,12 +4,11 @@ The documentation on how to work with Azure DevOps is located [HERE](https://doc
 
 The expectation is that you will get comfortable with Azure DevOps and use this documenation as reference for questions you may have.
 
-### Create a Repo
+### Create an Account
 1. Visit [Azure DevOps](https://visualstudio.microsoft.com/team-services/) and create an account using the same email you used for your Azure account
-2. Create a new organization
-3. Create a new project
+
+### Create a Repo
 4. Add your partner.
-5. Add your assigned TA
 6. Add your Instructor(s)
 7. Select "Repos" on the left hand side
 8. Clone in Visual Studio
@@ -79,25 +78,6 @@ Go to your Visual Studio local code base and be sure to sync your changes first
    - select your branch and do your development
    - Commit often
 
-### Submit a PR
-Upon completion, Push your code up to Azure DevOps
-  - Go back to Azure DevOps
-  - Select "Code"
-  - You will see a notification at the top that says "you updated {BranchName} just now -- create a pull request"
-  - select the Pull Request link in that message
-  - Fill out the required details of the PR
-  - Select Create
-  - Assign  your partner as a reviewer (they should get an email)
-
-
-### Review a PR
-Review and approve a pull request
-  - When reviewing a PR, Review the code, make notes as needed, and complete/approve as necessary
-  - Select the appropriate action from the approve menu
-  - Complete once approved (Blue Button top right corner)
-  - complete the merge (make sure the top 2 boxes are checked)
-  - Wait for merge to complete
-  - Your old branch will delete and confirm that your code has the changes
 
 ### Complete a Task
 Completing a task
@@ -105,31 +85,3 @@ Completing a task
  - Go back to the task, and in the discussion, say how long it actually took you (in comparison to the remaining work that you estimated)
 
 Go to the Sprints view - and move the task to "Done"
-
-
-### Change Remote URL Origin (Final Submission)
-These steps are only to be done for your **FINAL E-Com Submission, after Sprint 3**.
-
-On your final submission of your project, you will be required to change the remote URL to point to a GH
-repository. Here are the steps to complete this process:
-
-#### Add Alternative Credentials
-1. Login
-2. select your project
-3. select your avatar in top right
-4. select "security"
-5. Select Alternate Creds
-6. set up the alt name and password
-
-### Changing Repos
-
-1. Go to your local git repo on you machine
-2. Confirm the current origin with the following command: `git remote show origin`
-3. You will be prompted for the credentials you specified above in the setup
-4. confirm that you see `fetch` and `push` url to point to Azure DevOps.
-5. Run this command `git remote set-url origin {Github Repo URL}}` (
-**Example:** `git remote set-url origin https://github.com/Aiverson1011/DotNetBusMall`)
-6. Conduct a `git push` on your local repo
-7. Confirm your GH repo has updated,
-
-Source: [Changing a remote url](https://help.github.com/articles/changing-a-remote-s-url/)
