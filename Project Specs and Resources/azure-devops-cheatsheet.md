@@ -7,16 +7,11 @@ The expectation is that you will get comfortable with Azure DevOps and use this 
 ### Create an Account
 1. Visit [Azure DevOps](https://visualstudio.microsoft.com/team-services/) and create an account using the same email you used for your Azure account
 
+#### Trello Boards are an Acceptable Replacement
+
 ### Create a Repo
-4. Add your partner.
-6. Add your Instructor(s)
-7. Select "Repos" on the left hand side
-8. Clone in Visual Studio
-9. There may be a yellow box that appears that says "Create a new project or solution for this repository"
-10. Create an empty MVC web app project as your intial commit.
-11. Name your project the name of your E-Commerce site
-12. Push your project up to Azure Repos
-13. You can now refresh your Azure DevOps dashboard, select Repos, and you will see your newly added files.
+1. Add your partner.
+2. Add your Instructor(s)
 
 ### Beginning of Each Sprint:
 Create a new sprint at the beginning of each sprint. To create a new sprint, follow these directions:
@@ -26,7 +21,7 @@ Create a new sprint at the beginning of each sprint. To create a new sprint, fol
 
 ### Create a User Story/Work item
    - Go to Work Items
-   - select "Add Work Item" and select "User Story"
+   - select "Add Work Item" and select "Issue"
    - Fill out the title with as "Milestone##-US##-{DescriptionOfFeature}"
    - In the description, transfer the user story (I, as a ..., want to ..., so that...)
    - In the same description box, on a new line under the user story, provide a short description of what is expected for this user story.
