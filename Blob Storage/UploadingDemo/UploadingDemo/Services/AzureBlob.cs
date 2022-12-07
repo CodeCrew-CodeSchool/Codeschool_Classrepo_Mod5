@@ -31,6 +31,7 @@ namespace UploadingDemo.Services
 
       BlobContainerClient container = new BlobContainerClient(Configuration.GetConnectionString("AzureBlob"), "images");
       await container.CreateIfNotExistsAsync();
+      container.SetAccessPolicy(PublicAccessType.BlobContainer, null, null, default);
 
       BlobClient blob = container.GetBlobClient(file.FileName);
 
